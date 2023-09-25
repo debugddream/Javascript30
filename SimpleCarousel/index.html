@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DebugDream | Simple Testimonial Carousel</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main class="container">
+        <div class="testimonial-box">
+            <button id="toggle_prev" class="toggle_btn toggle_prev">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="testimonial">
+                <i class="fas fa-quote-right"></i>
+                <span id="text" class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Hic dignissimos
+                    blanditiis similique quod quaerat et recusandae tempora. Animi error quaerat labore cum! Ratione
+                    veritatis culpa illo quo molestiae minima repudiandae.</span>
+                <div class="testimonial-user">
+                    <img id="image" src="https://randomuser.me/api/portraits/women/17.jpg" alt="user-img"
+                        class="user-img">
+                    <div class="user-info">
+                        <span id="name" class="user-name">@Username</span>
+                        <div class="user-job-details">
+                            <span id="job" class="user-job">Job</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="toggle_next" class="toggle_btn toggle_next">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
